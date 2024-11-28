@@ -1,5 +1,5 @@
 describe("Create book", () => {
-  const url = "http://localhost:3000/api/books";
+  const url = "http://localhost:8080/api/books";
 
   it("POST to /books should return 201", async () => {
     const body = {

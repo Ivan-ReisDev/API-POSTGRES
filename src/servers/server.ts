@@ -5,10 +5,9 @@ import fastifyCors from '@fastify/cors';
 
 dotenv.config();
 
-const port: number = 3000;
+const port: number = 8080;
 
 const app = fastify({ logger: true });
-
 
 app.register(fastifyCors, {
   origin: "*",

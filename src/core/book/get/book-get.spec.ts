@@ -1,6 +1,6 @@
 describe("Get books", () => {
 
-    const url = "http://localhost:3000/api/books";
+    const url = "http://localhost:8080/api/books";
 
     it("GET to /books should return 200", async () => {
 

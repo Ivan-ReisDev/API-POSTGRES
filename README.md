@@ -18,6 +18,8 @@ Esta API permite gerenciar um catálogo de livros, oferecendo funcionalidades pa
 
 **ORM:** Prisma
 
+**Framework:** Fastify
+
 **Database:** PostgreSQL
 
 ## Instalação e Configuração
@@ -26,8 +28,8 @@ Esta API permite gerenciar um catálogo de livros, oferecendo funcionalidades pa
 
 Antes de começar, certifique-se de ter instalado:
 
-- Node.js (versão 16 ou superior)
-- Typescript (versão 16 ou superior)
+- Node.js (versão 20 ou superior)
+- Typescript (versão 5.7.2 ou superior)
 - PostgreSQL (ou outro banco de dados compatível)
 - npm ou yarn
 
@@ -72,7 +74,7 @@ Iniciar o servidor
   npm run dev
 ```
 
-O servidor ficará disponível na url `http://localhost:3000/` lembrando que a porta a api tem o prefixo `/api` logo par acessar os endpois será necessário usar no seguinte formato: `http://localhost:3000/api`
+O servidor ficará disponível na url `http://localhost:8080` lembrando que a porta a api tem o prefixo `/api` logo par acessar os endpois será necessário usar no seguinte formato: `http://localhost:8080/api`
 
 ## Endpoints
 
@@ -140,7 +142,7 @@ const response = await fetch(url, {
 
 Esta api para seguir boas práticas de programação foi usado o JEST para testes;
 
-Para iniciar os testes é necessário executar o comando: R
+Para iniciar os testes é necessário executar o comando:
 
 ```bash
   npm run test
